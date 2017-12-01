@@ -3,18 +3,18 @@
 <head>
 	<meta charset="UTF-8">
 	<title>App Vision</title>
-	
-	
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<link rel="stylesheet" href="jquery-mobile/jquery.mobile-1.4.5.css" />
+	
+	<script src="jquery/jquery-1.11.1.min.js"></script>
 	<script src="jquery-mobile/jquery.mobile-1.4.5.min.js"></script>
 	<script src="javascript/main.js"></script>
 	<script src="javascript/datos.js"></script>
+	
 
 </head>
 <body>
-ç
-	<input type="file" id="inputImg">
+	<input type="file" capture="camera" id="inputImg">
 	
 	<br />
 	<img id="outputImg" width="50%" height="50%" src="" />
@@ -26,6 +26,8 @@
     <br />
     
     <h1 id="results"></h1>
+
+    <button class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-video">video</button>
 	
 </body>
 </html>
